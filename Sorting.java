@@ -17,6 +17,10 @@ public class Sorting
 	//and  place the biggest nubmer to the left most place of earth
 	// this way array will be sorted
 	{
+	for (int a=0; a< array.length; a++)
+	{
+		System.out.println(array[a]);
+	}
 	for (int i=0; i<array.length; i++)
 	{
 		for (int j=i; j<array.length; j++)
