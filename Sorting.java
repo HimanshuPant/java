@@ -21,9 +21,9 @@ public class Sorting
 	{
 		System.out.println(array[a]);
 	}
-	for (int i=0; i<10; i++)
+	for (int i=0; i<array.length; i++)
 	{
-		for (int j=i; j<10; j++)
+		for (int j=i; j<array.length; j++)
 		{
 			int temp;
 			if (array[i] < array[j])
