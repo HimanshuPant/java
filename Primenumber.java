@@ -13,7 +13,7 @@ public class Primenumber{
 		}
 		for (int i=4; i<=100; i++)
 		{
-			if (isprime(i))
+			if (isprime(i)) 
 			{
 			System.out.println( i );
 			}
